@@ -8,10 +8,6 @@
 	<name>my-app</name>
 	<url>http://maven.apache.org</url>
 	
-	<plugin>
-  <artifactId>maven-war-plugin</artifactId>
-  <version>3.0.0</version>
-</plugin>
 
 	<dependencies>
 		<dependency>
@@ -32,5 +28,11 @@
 		    <version>2.1.7</version>
 		</dependency>
 	</dependencies>
+	<build>
+		<plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.0.0</version>
+</plugin>
+	</build>
 	
 </project>
